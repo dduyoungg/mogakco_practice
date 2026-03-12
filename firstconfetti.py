@@ -11,7 +11,7 @@ st.markdown("<h1 style='text-align: center;'>오늘 코딩 성공!</h1>", unsafe
 # 2. 누적 횟수 표시
 st.write(f"<p style='text-align: center; font-size: 1.5rem;'>현재 총 <b>{st.session_state.count}</b>번 축하받았습니다!</p>", unsafe_allow_html=True)
 
-if st.button('여기를 눌러 폭죽 터뜨리기!', use_container_width=True):
+if st.button('여기를 눌러 풍선 날기!', use_container_width=True):
     st.session_state.count += 1  # 클릭할 때마다 1씩 증가
     st.balloons()
     st.rerun() # 화면을 다시 그려서 숫자를 업데이트
