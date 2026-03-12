@@ -9,5 +9,5 @@ st.markdown("<h1 style='text-align: center;'>오늘 코딩 성공!</h1>", unsafe
 st.write("") # 간격 조절용 빈 줄
 
 # 3. 버튼 및 효과
-if st.button('여기를 눌러 폭죽 터뜨리기!', use_container_width=True):
+if st.button('여기를 눌러 풍선 날리기!', use_container_width=True):
     st.balloons()
